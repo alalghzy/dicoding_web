@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+header, footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+}
+
+article {
+    flex: 2;
+    padding: 20px;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+}
+
+aside img {
+    max-width: 100%;
+    height: auto;
+}
